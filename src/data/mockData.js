@@ -316,3 +316,318 @@ export const TECH_STACK = [
   { name: 'Tailwind CSS', icon: 'style', category: 'UI System' },
   { name: 'JavaScript', icon: 'integration_instructions', category: 'Language' }
 ];
+export const DIGITAL_PRODUCTS_DATA = [
+  {
+    id: 'ai-architecture-blueprint-2026',
+    title: '2026 AI & SaaS Architecture Blueprint',
+    category: 'Architecture & Engineering',
+    type: 'Downloadable PDF & Notion Template',
+    badge: 'FREE DOWNLOAD',
+    icon: 'account_tree',
+    description: 'Comprehensive 28-page guide covering server-side Gemini LLM integration, Express API proxies, database schema design, and zero-downtime deployment specs.',
+    fileSize: '4.2 MB',
+    downloadsCount: '3,420+',
+    includedContents: [
+      'Complete React 19 + Express full-stack folder structure',
+      'API Key Security & Lazy SDK Initialization patterns',
+      'Firestore & PostgreSQL database schema templates',
+      'Production deployment checklist for Cloud Run & Vercel'
+    ]
+  },
+  {
+    id: 'saas-growth-pricing-playbook',
+    title: 'SaaS Pricing & MRR Growth Playbook',
+    category: 'Business & Revenue',
+    type: 'Interactive Spreadsheet & Guide',
+    badge: 'POPULAR RESOURCE',
+    icon: 'payments',
+    description: 'Financial forecasting model and packaging cheat-sheet for B2B software products, including tier feature breakdown & localized Indian Rupee pricing.',
+    fileSize: '1.8 MB',
+    downloadsCount: '2,180+',
+    includedContents: [
+      'Excel/Google Sheets 12-month MRR projection model',
+      'SaaS tier feature packaging matrix',
+      'Enterprise SLA & custom contract checklist',
+      'Value-based vs usage-based pricing decision tree'
+    ]
+  },
+  {
+    id: 'hospitality-cafe-pos-checklist',
+    title: 'Cafe & Hospitality POS Operations Checklist',
+    category: 'Hospitality Tech',
+    type: 'PDF & Process Spec',
+    badge: 'INDUSTRY SPECIFIC',
+    icon: 'restaurant',
+    description: 'Step-by-step audit guide for multi-outlet cafes and restaurants wanting to streamline kitchen displays, QR table billing, and inventory tracking.',
+    fileSize: '2.5 MB',
+    downloadsCount: '1,890+',
+    includedContents: [
+      'Peak-hour order bottleneck identification framework',
+      'Kitchen Display System (KDS) layout blueprint',
+      'Perishable ingredient waste calculation formula',
+      'Staff onboarding quick reference manual'
+    ]
+  },
+  {
+    id: 'b2b-lead-funnel-framework',
+    title: 'High-Converting B2B Lead Funnel Framework',
+    category: 'Marketing & Sales',
+    type: 'Figma & PDF Wireframe',
+    badge: 'FREE TEMPLATE',
+    icon: 'filter_alt',
+    description: 'Wireframe templates and copywriting structures for high-converting agency and SaaS landing pages engineered for maximum lead inquiries.',
+    fileSize: '6.1 MB',
+    downloadsCount: '4,100+',
+    includedContents: [
+      'Figma wireframe components for high-converting Hero sections',
+      'Lead inquiry form validation copy guide',
+      'Trust badges & client proof layout patterns',
+      'Automated email lead response sequence'
+    ]
+  }
+];
+
+export const TEMPLATES_SERVICES_DATA = [
+  // --- WEBSITE TEMPLATES ---
+  {
+    id: 'tpl-agency-pro-v2',
+    name: 'Nexus Agency & Portfolio React Template',
+    category: 'website-templates',
+    categoryLabel: 'React / Tailwind Template',
+    badge: 'BESTSELLER ⚡',
+    type: 'Digital Template',
+    price: 2999,
+    originalPrice: 5999,
+    currency: 'INR',
+    rating: 4.9,
+    salesCount: '480+',
+    icon: 'web',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Ultra-fast, responsive React + Tailwind CSS landing page template designed for software labs, agencies, and tech consultants.',
+    techStack: ['React 18', 'Tailwind CSS', 'Framer Motion', 'Lucide Icons'],
+    features: [
+      'Dark & High-Contrast Light Mode Support',
+      'Interactive Case Study Modal & Portfolio Filter',
+      'Contact Lead Form with Express / Nodemailer integration',
+      '100/100 Lighthouse Performance & SEO Optimized',
+      'Includes Full Figma Source Files'
+    ],
+    demoUrl: '#demo-nexus',
+    includedFiles: ['Full Source Code (Zip)', 'Figma Design Tokens', 'Setup Documentation (PDF)', 'Commercial License']
+  },
+  {
+    id: 'tpl-cafe-restaurant-pos',
+    name: 'Aura Cafe & Restaurant Web + QR Menu Kit',
+    category: 'website-templates',
+    categoryLabel: 'Hospitality Web Template',
+    badge: 'POPULAR 🍕',
+    type: 'Digital Template',
+    price: 3499,
+    originalPrice: 6999,
+    currency: 'INR',
+    rating: 4.8,
+    salesCount: '320+',
+    icon: 'restaurant_menu',
+    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Modern restaurant website template featuring digital QR code menus, table reservation forms, and online takeaway order manager.',
+    techStack: ['React', 'Tailwind CSS', 'Local State Cart', 'WhatsApp Order Integration'],
+    features: [
+      'Interactive Food & Beverage Menu with Filter Tabs',
+      'One-click WhatsApp Takeaway & Table Booking',
+      'Mobile-first QR Code Scanner Ready UI',
+      'Admin Dashboard UI for Menu Item Management',
+      'Multi-currency & GST Tax Calculator Included'
+    ],
+    demoUrl: '#demo-aura-cafe',
+    includedFiles: ['React Source Code', 'Admin UI Template', 'QR Generator Script', 'Setup Guide']
+  },
+  {
+    id: 'tpl-ecommerce-minimal',
+    name: 'Vogue Minimalist E-Commerce Storefront',
+    category: 'website-templates',
+    categoryLabel: 'E-Commerce Storefront',
+    badge: 'TRENDING 🛍',
+    type: 'Digital Template',
+    price: 3999,
+    originalPrice: 7999,
+    currency: 'INR',
+    rating: 5.0,
+    salesCount: '610+',
+    icon: 'shopping_bag',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Sleek, high-converting React storefront template with instant product filtering, slide-over cart, and Razorpay/Stripe checkout support.',
+    techStack: ['React', 'Tailwind CSS', 'Razorpay & Stripe SDK', 'Zustand State'],
+    features: [
+      'Instant Category & Price Range Filter',
+      'Slide-over Shopping Cart & Express Checkout UI',
+      'Product Zoom & Variant Selector (Colors/Sizes)',
+      'Customer Review & Rating Stars Component',
+      'SEO Schema.org Structured Product Markup'
+    ],
+    demoUrl: '#demo-vogue-ecom',
+    includedFiles: ['Frontend Codebase', 'API Proxy Routes', 'Figma Wireframe', 'License Key']
+  },
+
+  // --- APP BOILERPLATES ---
+  {
+    id: 'tpl-ai-agent-saas-kit',
+    name: 'OmniAI Agent & SaaS Express Starter Kit',
+    category: 'app-boilerplates',
+    categoryLabel: 'SaaS & AI Boilerplate',
+    badge: 'HOT AI BOILERPLATE 🤖',
+    type: 'Full-Stack Starter Kit',
+    price: 4999,
+    originalPrice: 9999,
+    currency: 'INR',
+    rating: 4.9,
+    salesCount: '530+',
+    icon: 'psychology',
+    image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Production-ready full-stack boilerplate with Gemini 2.5 API integration, Express server, user authentication, and subscription billing.',
+    techStack: ['React 18', 'Node/Express', 'Gemini AI API', 'MongoDB / Postgres', 'Razorpay'],
+    features: [
+      'Pre-configured Gemini 2.5 Flash & GPT-4 API routes',
+      'JWT User Authentication & Role Management',
+      'Usage-based Token Metering & Subscription Billing UI',
+      'Markdown Chat Component with Streaming Answers',
+      'Docker & Cloud Run Deployment Scripts'
+    ],
+    demoUrl: '#demo-omniai',
+    includedFiles: ['Full Stack Repo (Client + Server)', 'Postman API Collection', 'Docker Compose', 'Deployment Checklist']
+  },
+  {
+    id: 'tpl-multi-vendor-pos-app',
+    name: 'RetailOps Multi-Outlet Billing & Inventory System',
+    category: 'app-boilerplates',
+    categoryLabel: 'Full-Stack Software System',
+    badge: 'ENTERPRISE READY 🏢',
+    type: 'Full-Stack Software System',
+    price: 6999,
+    originalPrice: 12999,
+    currency: 'INR',
+    rating: 4.9,
+    salesCount: '210+',
+    icon: 'point_of_sale',
+    image: 'https://images.unsplash.com/photo-1556742049-0a67dd369d72?auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Comprehensive POS & Inventory management dashboard boilerplate with thermal invoice printing, stock alerts, and sales analytics charts.',
+    techStack: ['React', 'Express.js', 'Recharts', 'PostgreSQL / SQLite', 'PDF Printer Engine'],
+    features: [
+      'Barcode Scanner & Quick Touch Cashier Interface',
+      'Thermal Receipt Generation & WhatsApp Invoice Dispatch',
+      'Low Stock Alerts & Supplier Order Automation',
+      'Daily GST Tax Reports & Sales Revenue Analytics',
+      'Offline Local Backup Sync Logic'
+    ],
+    demoUrl: '#demo-retailops',
+    includedFiles: ['Client App', 'Server Engine', 'DB Migration Scripts', 'User Training Guide']
+  },
+
+  // --- FIGMA UI KITS ---
+  {
+    id: 'tpl-figma-fintech-design-system',
+    name: 'Apex Fintech & Banking Figma Design System',
+    category: 'figma-kits',
+    categoryLabel: 'Figma UI/UX Kit',
+    badge: '300+ COMPONENTS 🎨',
+    type: 'Figma Digital Asset',
+    price: 1999,
+    originalPrice: 3999,
+    currency: 'INR',
+    rating: 4.8,
+    salesCount: '390+',
+    icon: 'dashboard',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Complete Figma design system with Auto-Layout 5.0, variables, dark mode tokens, and 40+ pre-assembled mobile & desktop screens.',
+    techStack: ['Figma Auto-Layout', 'Design Tokens', 'Variables & Component Variants'],
+    features: [
+      '40+ Mobile & Desktop Financial Screens',
+      'Strict WCAG AA Color Contrast Palette',
+      'Custom SVG Vector Icon Set & Chart Components',
+      'Interactive Prototype Animations in Figma',
+      'Free Lifetime Updates & New Screen Drops'
+    ],
+    demoUrl: '#demo-apex-figma',
+    includedFiles: ['.FIG Source File', 'UI Style Guide (PDF)', 'Design System Tokens (JSON)']
+  },
+
+  // --- WEBSITE SERVICES ---
+  {
+    id: 'srv-48h-express-website',
+    name: '48-Hour Express Custom Website Launch',
+    category: 'website-services',
+    categoryLabel: 'Done-For-You Service',
+    badge: 'GUARANTEED 48H LAUNCH 🚀',
+    type: 'Custom Service Package',
+    price: 14999,
+    originalPrice: 24999,
+    currency: 'INR',
+    rating: 5.0,
+    salesCount: '180+ Completed',
+    icon: 'rocket_launch',
+    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Get a fully custom, high-converting 5-page business website built, coded, and deployed live in 48 hours by JSRM Labs engineers.',
+    techStack: ['Custom React / Tailwind', 'SEO Optimization', 'Domain & Cloud Hosting Setup'],
+    features: [
+      'Up to 5 Custom Pages (Home, About, Services, Contact, Blog/Portfolio)',
+      'Custom Domain & SSL Hosting Setup on High-Speed CDN',
+      'Mobile Responsive & Fast 95+ PageSpeed Score',
+      'Lead Collection Inquiry Form & WhatsApp Chat Integration',
+      '1 Year Free Maintenance & Security Updates'
+    ],
+    demoUrl: '#service-express-website',
+    includedFiles: ['Full Code Ownership', 'Admin CMS Training', '1 Year Hosting Config']
+  },
+  {
+    id: 'srv-custom-ecommerce-build',
+    name: 'Full-Scale Custom E-Commerce Store & Mobile App',
+    category: 'website-services',
+    categoryLabel: 'Done-For-You Service',
+    badge: 'HIGH GROWER CHOICE 🛍',
+    type: 'Custom Service Package',
+    price: 34999,
+    originalPrice: 49999,
+    currency: 'INR',
+    rating: 4.9,
+    salesCount: '95+ Completed',
+    icon: 'storefront',
+    image: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'Complete custom online store engineering with payment gateways (Razorpay, PhonePe, Stripe), inventory engine, and mobile app build.',
+    techStack: ['React / Next.js', 'Node.js Backend', 'Razorpay Gateway', 'Android PWA / App'],
+    features: [
+      'Unlimited Products & Category Catalog Setup',
+      'Seamless Payment Gateway Integration (0% extra commission)',
+      'Automated Order Invoice PDF Generation & SMS/WhatsApp Alerts',
+      'Inventory Control Dashboard & Sales Analytics',
+      'PWA Mobile App Conversion for Android Users'
+    ],
+    demoUrl: '#service-ecommerce-custom',
+    includedFiles: ['Production Codebase', 'Backend API', 'Admin Dashboard Access', 'SLA Warranty']
+  },
+  {
+    id: 'srv-ai-agent-integration-package',
+    name: 'Custom AI Agent & Workflow Automation Setup',
+    category: 'website-services',
+    categoryLabel: 'Done-For-You Service',
+    badge: 'AI SPECIALTY 🤖',
+    type: 'Custom Service Package',
+    price: 24999,
+    originalPrice: 39999,
+    currency: 'INR',
+    rating: 5.0,
+    salesCount: '140+ Completed',
+    icon: 'auto_awesome',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=800&q=80',
+    shortDescription: 'We integrate autonomous AI customer support, document parsing, lead qualification, or internal process bots directly into your existing site.',
+    techStack: ['Gemini 2.5 API', 'LangChain / Python', 'REST API Connectors', 'WhatsApp/Slack Bots'],
+    features: [
+      'Custom trained on your business FAQs, product catalog & documentation',
+      'Multilingual AI Chatbot embedded on your website or WhatsApp',
+      'Automated Lead Qualification & CRM Sync (HubSpot / Sheets / Email)',
+      'Sub-second response time with fallback human escalation',
+      '30 Days Dedicated Model Tuning & Accuracy Monitoring'
+    ],
+    demoUrl: '#service-ai-agent',
+    includedFiles: ['AI Pipeline Architecture', 'API Keys Config', 'Staff Training Session']
+  }
+];
+
