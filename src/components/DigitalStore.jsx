@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { TEMPLATES_SERVICES_DATA } from '../data/mockData';
+
 // API NOTE: Store products list can be retrieved via GET /api/store/templates
 // API NOTE: Checkout orders post to POST /api/store/order
 export const DigitalStore = ({ onOpenInquiry }) => {
@@ -30,6 +32,19 @@ export const DigitalStore = ({ onOpenInquiry }) => {
   ];
 
   // Filtering & Sorting
+  const filteredItems = TEMPLATES_SERVICES_DATA.filter((item) => {
+    const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory;
+    const matchesSearch =
+      item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.shortDescription.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.techStack.some(t => t.toLowerCase().includes(searchQuery.toLowerCase()));
+    return matchesCategory && matchesSearch;
+  }).sort((a, b) => {
+    if (sortBy === 'price-low') return a.price - b.price;
+    if (sortBy === 'price-high') return b.price - a.price;
+    return b.salesCount.localeCompare(a.salesCount);
+  });
+
   const handleCheckoutSubmit = (e) => {
     e.preventDefault();
     if (customerInfo.name && customerInfo.email && customerInfo.phone && checkoutItem) {
